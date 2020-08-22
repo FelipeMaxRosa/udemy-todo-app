@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Menu(props) {
   return (
-    <nav className="navbar navbar-inverse bg-inverse">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <div className="navbar-header">
           <a href="#" className="navbar-brand">
@@ -12,11 +12,15 @@ export default function Menu(props) {
 
         <div id="navbar" className="navbar-collapse collapse">
           <ul className="nav navbar-nav">
-            <li>
-              <a href="#/todos">Tarefas</a>
+            <li className="nav-item active">
+              <a href="#/todos" class="nav-link">
+                Tarefas
+              </a>
             </li>
-            <li>
-              <a href="#/about">Sobre</a>
+            <li className="nav-item active">
+              <a href="#/about" class="nav-link">
+                Sobre
+              </a>
             </li>
           </ul>
         </div>
